@@ -1,0 +1,64 @@
+:root {
+    --bg-color:#fff;
+    --text-color:#333;
+}
+.dark-mode {
+    --bg-color:#1a1a1a;
+    --text-color:#f0f0f0; 
+}
+body {
+    display: flex;
+    justify-content: center;
+     background-color: rgb(5, 170, 246);
+}
+button {
+    background-color:#efe8e8;
+    padding: 10px;
+}
+input {
+    background-color:#efe8e8;
+    padding: 10px;
+}
+p {
+    background-color: rgb(225, 223, 223);
+}
+#temp {
+     color: brown;
+     padding: 10px;
+     border-radius: 25px;
+}
+#cloud1 {
+    color: #8ec0f3;
+    padding: 10px;
+    border-radius: 25px;
+}
+#dewpoint1 {
+    color: #8e93f3;
+    padding: 10px;
+    border-radius: 25px;
+}
+#humidity1 {
+    color: #8ec0f3;
+    padding: 10px;
+    border-radius: 25px;
+}
+#humidity1 {
+    color: hsl(29, 80%, 61%);
+    padding: 10px;
+    border-radius: 25px;    
+}
+#precip1 {
+    color: #516ef0;
+    padding: 10px;
+    border-radius: 25px;  
+}
+#pressure1 {
+    color: #89f57f;
+    padding: 10px;
+    border-radius: 25px;  
+}
+#wind_kph1 {
+    color: #77eeda;
+    padding: 10px;
+    border-radius: 25px;
+}
